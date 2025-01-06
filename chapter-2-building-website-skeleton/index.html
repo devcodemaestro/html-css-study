@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>자기소개서</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>자기소개서</h1>
+    <p>안녕하세요 제 이름은 <strong>이상재</strong> 입니다.</p>
+    <p>
+      기술을 통해 사용자에게 더 나은 경험을 제공하고 싶은 프론트엔드
+      개발자입니다.
+    </p>
+    <h2>좋아하는 음식</h2>
+    <ul>
+      <li>국밥</li>
+      <li>피자</li>
+      <li>햄버거</li>
+      <li>회</li>
+    </ul>
+    <h2>좋아하는 가수</h2>
+    <img
+      src="https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2024/01/21/a82efb43-b1e6-4198-876a-76c6e34b2404.jpg"
+      width="300/"
+    />
+    <p>아이유</p>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/jjeGH2df_qw?si=KOPdmOwYa6BoqG9n&amp;start=1880"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <h2>좋아하는 노래</h2>
+    <audio controls="controls">
+      <source src="./assets/iamfirefly.mp3" type="audio/mp3" />
+    </audio>
+    <h2>인적사항</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>질문</th>
+          <th>답변</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>사는곳?</td>
+          <td>대구</td>
+        </tr>
+        <tr>
+          <td>MBTI</td>
+          <td>INFJ <-> ENFJ</td>
+        </tr>
+        <tr>
+          <td>올해 목표</td>
+          <td>FE 개발자 취업</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>연락&문의</h2>
+    <form
+      action="MAILTO:luckyzi1109@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <div>
+        <label for="email">이메일</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="이메일을 입력해주세요"
+        />
+      </div>
+      <div>
+        <label for="message">메세지</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="메세지를 입력해주세요"
+        ></textarea>
+      </div>
+      <button type="submit">보내기</button>
+    </form>
+  </body>
+</html>
