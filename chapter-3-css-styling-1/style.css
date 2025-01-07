@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.box {
+  border: 50px solid red;
+  width: 200px;
+  padding: 50px;
+  margin-bottom: 20px;
+}
+.box:first-child:hover {
+  border-color: #f1c40f;
+}
+.green {
+  border-color: green;
+  display: none;
+}
+
+.blue {
+  border-color: blue;
+}
+
+.blue:hover {
+  border-color: #e67e22;
+}
+
+.wisteria {
+  border-color: #8e44ad;
+}
+
+.wisteria:hover {
+  border-color: #16a085;
+}
