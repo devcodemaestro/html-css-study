@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  background-color: black;
+  width: 150px;
+  height: 150px;
+  color: white;
+}
+
+.one {
+  width: 500px;
+  height: 230px;
+  background-color: #353d3f;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.two {
+  position: absolute;
+  bottom: 0;
+}
+.three {
+  position: absolute;
+  right: 0;
+  top: 0;
+}

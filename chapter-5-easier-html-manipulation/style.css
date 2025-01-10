@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.end {
+  display: flex;
+  gap: 10px;
+}
+
+.next {
+  margin-top: 50px;
+}
