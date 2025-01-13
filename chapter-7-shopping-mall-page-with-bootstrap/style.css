@@ -1,0 +1,52 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo-text,
+.card-title,
+.card-text {
+  font-size: calc(1.325rem + 0.9vw);
+}
+
+@media (min-width: 1200px) {
+  .logo-text,
+  .card-title,
+  .card-text {
+    font-size: 2rem;
+  }
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease-in-out;
+}
+
+.mobile-footer {
+  display: none;
+}
+
+@media screen and (max-width: 48rem) {
+  .mobile-footer {
+    display: block;
+  }
+}
+
+footer {
+  background-color: #19110b;
+  color: white;
+  font-size: 14px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.first-line {
+  border-bottom: 1px solid #392d23;
+}
