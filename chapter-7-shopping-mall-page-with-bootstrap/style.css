@@ -7,14 +7,14 @@ a {
   text-decoration: none;
 }
 
-.logo-text,
+.navbar-brand,
 .card-title,
 .card-text {
   font-size: calc(1.325rem + 0.9vw);
 }
 
 @media (min-width: 1200px) {
-  .logo-text,
+  .navbar-brand,
   .card-title,
   .card-text {
     font-size: 2rem;
@@ -49,4 +49,10 @@ footer a {
 
 .first-line {
   border-bottom: 1px solid #392d23;
+}
+
+@media screen and (min-width: 48rem) {
+  .first-line {
+    text-align: center;
+  }
 }

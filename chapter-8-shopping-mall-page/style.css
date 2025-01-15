@@ -1,0 +1,63 @@
+.btn-outline-success {
+  color: chocolate;
+  border-color: chocolate;
+}
+
+.btn-outline-success:hover {
+  background-color: chocolate;
+  color: white;
+  border-color: chocolate;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease-in-out;
+}
+nav {
+  padding: 0 2rem !important;
+}
+.navbar-brand {
+  font-size: calc(1.325rem + 0.9vw);
+}
+
+footer {
+  background-color: #19110b;
+  color: white;
+}
+
+.first-line {
+  border-bottom: 1px solid #392d23;
+}
+
+.second-line a {
+  text-decoration: none;
+  color: white;
+}
+
+.third-line {
+  display: none;
+}
+
+@media screen and (max-width: 48rem) {
+  footer {
+    font-size: 14px;
+  }
+  .first-line {
+    text-align: center;
+  }
+  .second-line {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-bottom: 1px solid #392d23;
+  }
+  .col {
+    margin-bottom: 20px;
+  }
+  .third-line {
+    display: block;
+    font-size: 18px;
+  }
+  .flag {
+    display: none;
+  }
+}
